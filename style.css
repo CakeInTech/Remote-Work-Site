@@ -1,0 +1,128 @@
+.Pnavbar {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 30px;
+}
+
+.wholemenu {
+  padding: 0 20px;
+}
+
+.list-items {
+  transition: 500ms;
+  transform: scale(0);
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  top: 0;
+  left: 120px;
+  right: 0;
+  bottom: 0;
+  gap: 12px;
+  padding-top: 90px;
+  background: rgba(38, 35, 41, 0.5);
+  backdrop-filter: blur(9px);
+  padding-left: 20px;
+}
+
+.list-items a {
+  width: 80%;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'heebo', sans-serif;
+  font-size: 30px;
+  border-bottom: 2px solid #24ffa0;
+}
+
+.list-items img {
+  position: absolute;
+  width: 40px;
+  top: 25px;
+  right: 50px;
+}
+
+.btnlg {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+}
+
+.login {
+  font-family: 'heebo', sans-serif;
+  font-size: 20px;
+  color: #fff;
+  border: 3px solid #24ffa0;
+  border-radius: 10px;
+  background-color: rgba(214, 214, 214, 0);
+  padding: 15px 20px;
+}
+
+.register {
+  font-family: 'heebo', sans-serif;
+  font-size: 20px;
+  background-color: #24ffa0;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.container {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.bannerimg img {
+  height: 35vh;
+  width: 100%;
+}
+
+.banner-content {
+  text-align: center;
+}
+
+.bannerheader {
+  font-family: 'heebo', sans-serif;
+}
+
+.banner-content p {
+  color: #7c7c7c;
+  line-height: 30px;
+  font-family: 'heebo', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.banner-content button {
+  background-color: #151515;
+  padding: 20px 40px;
+  border: 1px solid #797979;
+  border-radius: 15px;
+  font-family: 'heebo', sans-serif;
+  color: #fff;
+  font-size: 20px;
+}
+
+.logolist {
+  padding-top: 30px;
+  width: 100%;
+}
+
+.logolist ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  align-items: center;
+}
+
+.logolist li {
+  padding-right: 15px;
+}
+
+.logolist img {
+  width: 80px;
+}
